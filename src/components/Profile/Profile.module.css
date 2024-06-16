@@ -1,0 +1,59 @@
+.profileCard {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.profileInfo img {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+}
+
+.profileInfo p {
+  color: #777;
+  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.profileInfo .username {
+  color: #333;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.statsList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgray;
+  border-radius: 8px;
+}
+
+.statsList li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statsList span:first-child {
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.statsList span:last-child {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
